@@ -53,7 +53,7 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <div className="sm:hidden flex flex-1 justify-end items-center">
+        <div className="sm:hidden flex flex-1 justify-end items-center relative z-[1]">
           <div
             className="w-[28px] h-[28px] object-contain mx-3"
             onClick={() => setToggle((prev) => !prev)}
