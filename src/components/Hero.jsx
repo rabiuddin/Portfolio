@@ -27,10 +27,10 @@ const Hero = () => {
       </div>
 
       <div className="w-4/5 lg:w-3/5 h-px bg-white mt-7 " />
-      <div className="bg-secondary my-7 rounded-[13px]">
+      <div className="relative bg-secondary my-7 rounded-[13px]">
         <button
           type="button"
-          className="relative bg-gradient-to-r from-cyan-400 to-blue-700 text-secondary p-3 rounded-xl hover:bg-secondary hover:text-transparent hover:bg-clip-text font-poppins font-semibold"
+          className="bg-gradient-to-r from-cyan-400 to-blue-700 text-secondary p-3 rounded-xl hover:bg-secondary hover:text-transparent hover:bg-clip-text font-poppins font-semibold"
         >
           <a href="#contact">Contact Me</a>
         </button>
