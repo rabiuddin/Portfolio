@@ -2,12 +2,14 @@ import React from "react";
 import { projects } from "../constants";
 import TechLogo from "./TechLogo";
 import { IoLogoGithub, FaLink } from "../logos";
+import Reveal from "../Reveal";
 
 const ProjectCard = () => {
   return (
     <section>
       <ul className="flex flex-wrap justify-center list-none">
         {projects.map((project, index) => (
+          
           <li key={index}>
             <a href={project.live} target="_blank">
               <div className="w-[300px] h-[550px] bg-secondary mx-[6px] my-4 rounded-lg pt-6 hover:scale-105 transition duration-500 sm:w-[550px] sm:h-[600px] xs:w-[450px] xs:h-[520px] xs:m-4">
