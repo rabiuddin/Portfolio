@@ -29,7 +29,7 @@ const TechLogo = ({ techId }) => {
             <img
               src={techs[techId].img}
               alt="tech"
-              className={`size-16 rounded-full bg-white box-border shadow-[0_0_10px_rgba(30,61,89,0.6)] ml-3 object-contain md:mt-0 mt-3`}
+              className={`size-12 rounded-full bg-white box-border shadow-[0_0_10px_rgba(30,61,89,0.6)] ml-3 object-contain md:mt-0 mt-3`}
             />
             <ToolTip techName={techs[techId].name} />
           </div>
