@@ -51,10 +51,10 @@ const ProjectCard = () => {
                     className="flex items-center justify-center hover:text-primary transition duration-300 ml-8"
                     target="_blank"
                   >
-                    <p className="font-poppins font-medium sm:text-base text-xl mr-2">
+                    <p className="font-poppins font-medium text-xl  mr-2">
                       Live
                     </p>
-                    <FaLink className="sm:size-10 size-8" />
+                    <FaLink className="sm:size- size-8" />
                   </a>
                 </div>
               </div>
